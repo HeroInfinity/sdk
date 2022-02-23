@@ -178,13 +178,13 @@ export const HERO_LIST: Hero[] = [
   //   name: 'npc_dota_hero_kunkka',
   //   primaryAttribute: 0,
   // },
-  // {
-  //   complexity: 1,
-  //   fullName: 'Lina',
-  //   id: 25,
-  //   name: 'npc_dota_hero_lina',
-  //   primaryAttribute: 2,
-  // },
+  {
+    complexity: 1,
+    fullName: "Lina",
+    id: 25,
+    name: "lina",
+    primaryAttribute: 2,
+  },
   // {
   //   complexity: 1,
   //   fullName: 'Lich',
@@ -269,13 +269,13 @@ export const HERO_LIST: Hero[] = [
   //   name: 'npc_dota_hero_warlock',
   //   primaryAttribute: 2,
   // },
-  // {
-  //   complexity: 2,
-  //   fullName: 'Beastmaster',
-  //   id: 38,
-  //   name: 'npc_dota_hero_beastmaster',
-  //   primaryAttribute: 0,
-  // },
+  {
+    complexity: 2,
+    fullName: "Beastmaster",
+    id: 38,
+    name: "beastmaster",
+    primaryAttribute: 0,
+  },
   // {
   //   complexity: 2,
   //   fullName: 'Queen of Pain',
@@ -304,13 +304,13 @@ export const HERO_LIST: Hero[] = [
   //   name: 'npc_dota_hero_skeleton_king',
   //   primaryAttribute: 0,
   // },
-  // {
-  //   complexity: 1,
-  //   fullName: 'Death Prophet',
-  //   id: 43,
-  //   name: 'npc_dota_hero_death_prophet',
-  //   primaryAttribute: 2,
-  // },
+  {
+    complexity: 1,
+    fullName: "Death Prophet",
+    id: 43,
+    name: "deathprophet",
+    primaryAttribute: 2,
+  },
   // {
   //   complexity: 1,
   //   fullName: 'Phantom Assassin',
@@ -459,13 +459,13 @@ export const HERO_LIST: Hero[] = [
     name: "jakiro",
     primaryAttribute: 2,
   },
-  // {
-  //   complexity: 2,
-  //   fullName: 'Batrider',
-  //   id: 65,
-  //   name: 'npc_dota_hero_batrider',
-  //   primaryAttribute: 2,
-  // },
+  {
+    complexity: 2,
+    fullName: "Batrider",
+    id: 65,
+    name: "batrider",
+    primaryAttribute: 2,
+  },
   // {
   //   complexity: 3,
   //   fullName: 'Chen',
