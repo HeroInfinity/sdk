@@ -19,44 +19,44 @@ export type Hero = {
 export const HERO_LIST: Hero[] = [
   {
     complexity: 1,
-    fullName: "Anti-Mage",
+    fullName: "Isaac",
     id: 1,
-    name: "antimage",
+    name: "isaac",
     primaryAttribute: 1,
   },
   {
     complexity: 1,
-    fullName: "Axe",
+    fullName: "Ares",
     id: 2,
-    name: "axe",
+    name: "ares",
     primaryAttribute: 0,
   },
   {
     complexity: 2,
-    fullName: "Bane",
+    fullName: "Lucid",
     id: 3,
-    name: "bane",
+    name: "lucid",
     primaryAttribute: 2,
   },
-  // {
-  //   complexity: 1,
-  //   fullName: 'Bloodseeker',
-  //   id: 4,
-  //   name: 'npc_dota_hero_bloodseeker',
-  //   primaryAttribute: 1,
-  // },
   {
     complexity: 1,
-    fullName: "Crystal Maiden",
+    fullName: "Sanguine",
+    id: 4,
+    name: "sanguine",
+    primaryAttribute: 1,
+  },
+  {
+    complexity: 1,
+    fullName: "Chrysalis",
     id: 5,
-    name: "crystalmaiden",
+    name: "chrysalis",
     primaryAttribute: 2,
   },
   {
     complexity: 1,
-    fullName: "Drow Ranger",
+    fullName: "Eclipse",
     id: 6,
-    name: "drowranger",
+    name: "eclipse",
     primaryAttribute: 1,
   },
   // {
@@ -68,9 +68,9 @@ export const HERO_LIST: Hero[] = [
   // },
   {
     complexity: 1,
-    fullName: "Juggernaut",
+    fullName: "The Whirlwind",
     id: 8,
-    name: "juggernaut",
+    name: "thewhirlwind",
     primaryAttribute: 1,
   },
   // {
@@ -110,9 +110,9 @@ export const HERO_LIST: Hero[] = [
   // },
   {
     complexity: 2,
-    fullName: "Pudge",
+    fullName: "Butcher",
     id: 14,
-    name: "pudge",
+    name: "butcher",
     primaryAttribute: 0,
   },
   // {
@@ -138,9 +138,9 @@ export const HERO_LIST: Hero[] = [
   // },
   {
     complexity: 1,
-    fullName: "Sven",
+    fullName: "Minos",
     id: 18,
-    name: "sven",
+    name: "minos",
     primaryAttribute: 0,
   },
   // {
@@ -166,9 +166,9 @@ export const HERO_LIST: Hero[] = [
   // },
   {
     complexity: 1,
-    fullName: "Zeus",
+    fullName: "Father Sky",
     id: 22,
-    name: "zeus",
+    name: "fathersky",
     primaryAttribute: 2,
   },
   // {
@@ -180,9 +180,9 @@ export const HERO_LIST: Hero[] = [
   // },
   {
     complexity: 1,
-    fullName: "Lina",
+    fullName: "Hestia",
     id: 25,
-    name: "lina",
+    name: "hestia",
     primaryAttribute: 2,
   },
   // {
@@ -271,9 +271,9 @@ export const HERO_LIST: Hero[] = [
   // },
   {
     complexity: 2,
-    fullName: "Beastmaster",
+    fullName: "Darr",
     id: 38,
-    name: "beastmaster",
+    name: "darr",
     primaryAttribute: 0,
   },
   // {
@@ -306,9 +306,9 @@ export const HERO_LIST: Hero[] = [
   // },
   {
     complexity: 1,
-    fullName: "Death Prophet",
+    fullName: "Melinoë",
     id: 43,
-    name: "deathprophet",
+    name: "melinoe",
     primaryAttribute: 2,
   },
   // {
@@ -327,9 +327,9 @@ export const HERO_LIST: Hero[] = [
   // },
   {
     complexity: 2,
-    fullName: "Templar Assassin",
+    fullName: "Calypso",
     id: 46,
-    name: "templarassassin",
+    name: "calypso",
     primaryAttribute: 1,
   },
   // {
@@ -348,9 +348,9 @@ export const HERO_LIST: Hero[] = [
   // },
   {
     complexity: 1,
-    fullName: "Dragon Knight",
+    fullName: "Cadmus",
     id: 49,
-    name: "dragonknight",
+    name: "cadmus",
     primaryAttribute: 0,
   },
   // {
@@ -426,9 +426,9 @@ export const HERO_LIST: Hero[] = [
   // },
   {
     complexity: 1,
-    fullName: "Night Stalker",
+    fullName: "Gaunt",
     id: 60,
-    name: "nightstalker",
+    name: "gaunt",
     primaryAttribute: 0,
   },
   // {
@@ -454,16 +454,16 @@ export const HERO_LIST: Hero[] = [
   // },
   {
     complexity: 1,
-    fullName: "Jakiro",
+    fullName: "Valac",
     id: 64,
-    name: "jakiro",
+    name: "valac",
     primaryAttribute: 2,
   },
   {
     complexity: 2,
-    fullName: "Batrider",
+    fullName: "Bartok",
     id: 65,
-    name: "batrider",
+    name: "bartok",
     primaryAttribute: 2,
   },
   // {
@@ -489,9 +489,9 @@ export const HERO_LIST: Hero[] = [
   // },
   {
     complexity: 2,
-    fullName: "Ancient Apparition",
+    fullName: "Hypothermia",
     id: 68,
-    name: "ancientapparition",
+    name: "hypothermia",
     primaryAttribute: 2,
   },
   // {
@@ -510,16 +510,16 @@ export const HERO_LIST: Hero[] = [
   // },
   {
     complexity: 1,
-    fullName: "Gyrocopter",
+    fullName: "Manfred",
     id: 72,
-    name: "gyrocopter",
+    name: "manfred",
     primaryAttribute: 1,
   },
   {
     complexity: 1,
-    fullName: "Alchemist",
+    fullName: "Flamel",
     id: 73,
-    name: "alchemist",
+    name: "flamel",
     primaryAttribute: 0,
   },
   // {
@@ -627,13 +627,13 @@ export const HERO_LIST: Hero[] = [
   //   name: 'npc_dota_hero_nyx_assassin',
   //   primaryAttribute: 1,
   // },
-  // {
-  //   complexity: 2,
-  //   fullName: 'Naga Siren',
-  //   id: 89,
-  //   name: 'npc_dota_hero_naga_siren',
-  //   primaryAttribute: 1,
-  // },
+  {
+    complexity: 2,
+    fullName: "Lullaby",
+    id: 89,
+    name: "lullaby",
+    primaryAttribute: 1,
+  },
   // {
   //   complexity: 2,
   //   fullName: 'Keeper of the Light',
@@ -720,9 +720,9 @@ export const HERO_LIST: Hero[] = [
   // },
   {
     complexity: 1,
-    fullName: "Abaddon",
+    fullName: "Pestilence",
     id: 102,
-    name: "abaddon",
+    name: "pestilence",
     primaryAttribute: 0,
   },
   // {
@@ -790,9 +790,9 @@ export const HERO_LIST: Hero[] = [
   // },
   {
     complexity: 3,
-    fullName: "Arc Warden",
+    fullName: "Zollo",
     id: 113,
-    name: "arcwarden",
+    name: "zollo",
     primaryAttribute: 1,
   },
   // {
@@ -804,9 +804,9 @@ export const HERO_LIST: Hero[] = [
   // },
   {
     complexity: 2,
-    fullName: "Monkey King",
+    fullName: "The Trickster",
     id: 114,
-    name: "monkeyking",
+    name: "thetrickster",
     primaryAttribute: 1,
   },
   // {
@@ -816,13 +816,13 @@ export const HERO_LIST: Hero[] = [
   //   name: 'npc_dota_hero_pangolier',
   //   primaryAttribute: 1,
   // },
-  // {
-  //   complexity: 2,
-  //   fullName: 'Dark Willow',
-  //   id: 119,
-  //   name: 'npc_dota_hero_dark_willow',
-  //   primaryAttribute: 2,
-  // },
+  {
+    complexity: 2,
+    fullName: "Thorne",
+    id: 119,
+    name: "thorne",
+    primaryAttribute: 2,
+  },
   // {
   //   complexity: 2,
   //   fullName: 'Grimstroke',
@@ -867,9 +867,9 @@ export const HERO_LIST: Hero[] = [
   // },
   {
     complexity: 2,
-    fullName: "Marci",
+    fullName: "Rory",
     id: 136,
-    name: "marci",
+    name: "rory",
     primaryAttribute: 0,
   },
 ];
