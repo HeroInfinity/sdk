@@ -438,13 +438,13 @@ export const HERO_LIST: Hero[] = [
   //   name: 'npc_dota_hero_broodmother',
   //   primaryAttribute: 1,
   // },
-  // {
-  //   complexity: 1,
-  //   fullName: 'Bounty Hunter',
-  //   id: 62,
-  //   name: 'npc_dota_hero_bounty_hunter',
-  //   primaryAttribute: 1,
-  // },
+  {
+    complexity: 1,
+    fullName: "Sphinx",
+    id: 62,
+    name: "sphinx",
+    primaryAttribute: 1,
+  },
   // {
   //   complexity: 2,
   //   fullName: 'Weaver',
@@ -550,13 +550,13 @@ export const HERO_LIST: Hero[] = [
   //   name: 'npc_dota_hero_lycan',
   //   primaryAttribute: 0,
   // },
-  // {
-  //   complexity: 3,
-  //   fullName: 'Brewmaster',
-  //   id: 78,
-  //   name: 'npc_dota_hero_brewmaster',
-  //   primaryAttribute: 0,
-  // },
+  {
+    complexity: 3,
+    fullName: "Bix",
+    id: 78,
+    name: "bix",
+    primaryAttribute: 0,
+  },
   // {
   //   complexity: 2,
   //   fullName: 'Shadow Demon',
@@ -858,13 +858,13 @@ export const HERO_LIST: Hero[] = [
   //   name: 'npc_dota_hero_hoodwink',
   //   primaryAttribute: 1,
   // },
-  // {
-  //   complexity: 1,
-  //   fullName: 'Dawnbreaker',
-  //   id: 135,
-  //   name: 'npc_dota_hero_dawnbreaker',
-  //   primaryAttribute: 0,
-  // },
+  {
+    complexity: 1,
+    fullName: "Celestia",
+    id: 135,
+    name: "celestia",
+    primaryAttribute: 0,
+  },
   {
     complexity: 2,
     fullName: "Rory",
