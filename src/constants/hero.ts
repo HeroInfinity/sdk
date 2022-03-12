@@ -6,10 +6,9 @@ export enum HeroAttribute {
   INTELLIGENCE,
 }
 
-export type HeroComplexity = 1 | 2 | 3;
+export type HeroRarity = 0 | 1 | 2 | 3 | 4;
 
 export type Hero = {
-  complexity: HeroComplexity;
   id: number;
   name: string;
   fullName: string;
@@ -18,56 +17,48 @@ export type Hero = {
 
 export const HERO_LIST: Hero[] = [
   {
-    complexity: 1,
     fullName: "Isaac",
     id: 1,
     name: "isaac",
     primaryAttribute: 1,
   },
   {
-    complexity: 1,
     fullName: "Ares",
     id: 2,
     name: "ares",
     primaryAttribute: 0,
   },
   {
-    complexity: 2,
     fullName: "Lucid",
     id: 3,
     name: "lucid",
     primaryAttribute: 2,
   },
   {
-    complexity: 1,
     fullName: "Sanguine",
     id: 4,
     name: "sanguine",
     primaryAttribute: 1,
   },
   {
-    complexity: 1,
     fullName: "Chrysalis",
     id: 5,
     name: "chrysalis",
     primaryAttribute: 2,
   },
   {
-    complexity: 1,
     fullName: "Eclipse",
     id: 6,
     name: "eclipse",
     primaryAttribute: 1,
   },
   // {
-  //   complexity: 2,
   //   fullName: 'Earthshaker',
   //   id: 7,
   //   name: 'npc_dota_hero_earthshaker',
   //   primaryAttribute: 0,
   // },
   {
-    complexity: 1,
     fullName: "The Whirlwind",
     id: 8,
     name: "thewhirlwind",
@@ -109,7 +100,6 @@ export const HERO_LIST: Hero[] = [
   //   primaryAttribute: 2,
   // },
   {
-    complexity: 2,
     fullName: "Butcher",
     id: 14,
     name: "butcher",
@@ -137,7 +127,6 @@ export const HERO_LIST: Hero[] = [
   //   primaryAttribute: 2,
   // },
   {
-    complexity: 1,
     fullName: "Minos",
     id: 18,
     name: "minos",
@@ -165,7 +154,6 @@ export const HERO_LIST: Hero[] = [
   //   primaryAttribute: 2,
   // },
   {
-    complexity: 1,
     fullName: "Father Sky",
     id: 22,
     name: "fathersky",
@@ -179,7 +167,6 @@ export const HERO_LIST: Hero[] = [
   //   primaryAttribute: 0,
   // },
   {
-    complexity: 1,
     fullName: "Hestia",
     id: 25,
     name: "hestia",
@@ -270,7 +257,6 @@ export const HERO_LIST: Hero[] = [
   //   primaryAttribute: 2,
   // },
   {
-    complexity: 2,
     fullName: "Darr",
     id: 38,
     name: "darr",
@@ -305,7 +291,6 @@ export const HERO_LIST: Hero[] = [
   //   primaryAttribute: 0,
   // },
   {
-    complexity: 1,
     fullName: "Melinoë",
     id: 43,
     name: "melinoe",
@@ -326,7 +311,6 @@ export const HERO_LIST: Hero[] = [
   //   primaryAttribute: 2,
   // },
   {
-    complexity: 2,
     fullName: "Calypso",
     id: 46,
     name: "calypso",
@@ -347,7 +331,6 @@ export const HERO_LIST: Hero[] = [
   //   primaryAttribute: 1,
   // },
   {
-    complexity: 1,
     fullName: "Cadmus",
     id: 49,
     name: "cadmus",
@@ -425,7 +408,6 @@ export const HERO_LIST: Hero[] = [
   //   primaryAttribute: 0,
   // },
   {
-    complexity: 1,
     fullName: "Gaunt",
     id: 60,
     name: "gaunt",
@@ -439,7 +421,6 @@ export const HERO_LIST: Hero[] = [
   //   primaryAttribute: 1,
   // },
   {
-    complexity: 1,
     fullName: "Sphinx",
     id: 62,
     name: "sphinx",
@@ -453,14 +434,12 @@ export const HERO_LIST: Hero[] = [
   //   primaryAttribute: 1,
   // },
   {
-    complexity: 1,
     fullName: "Valac",
     id: 64,
     name: "valac",
     primaryAttribute: 2,
   },
   {
-    complexity: 2,
     fullName: "Bartok",
     id: 65,
     name: "bartok",
@@ -488,7 +467,6 @@ export const HERO_LIST: Hero[] = [
   //   primaryAttribute: 0,
   // },
   {
-    complexity: 2,
     fullName: "Hypothermia",
     id: 68,
     name: "hypothermia",
@@ -509,14 +487,12 @@ export const HERO_LIST: Hero[] = [
   //   primaryAttribute: 0,
   // },
   {
-    complexity: 1,
     fullName: "Manfred",
     id: 72,
     name: "manfred",
     primaryAttribute: 1,
   },
   {
-    complexity: 1,
     fullName: "Flamel",
     id: 73,
     name: "flamel",
@@ -551,7 +527,6 @@ export const HERO_LIST: Hero[] = [
   //   primaryAttribute: 0,
   // },
   {
-    complexity: 3,
     fullName: "Bix",
     id: 78,
     name: "bix",
@@ -628,7 +603,6 @@ export const HERO_LIST: Hero[] = [
   //   primaryAttribute: 1,
   // },
   {
-    complexity: 2,
     fullName: "Lullaby",
     id: 89,
     name: "lullaby",
@@ -719,7 +693,6 @@ export const HERO_LIST: Hero[] = [
   //   primaryAttribute: 2,
   // },
   {
-    complexity: 1,
     fullName: "Pestilence",
     id: 102,
     name: "pestilence",
@@ -789,7 +762,6 @@ export const HERO_LIST: Hero[] = [
   //   primaryAttribute: 2,
   // },
   {
-    complexity: 3,
     fullName: "Zollo",
     id: 113,
     name: "zollo",
@@ -803,7 +775,6 @@ export const HERO_LIST: Hero[] = [
   //   primaryAttribute: 0,
   // },
   {
-    complexity: 2,
     fullName: "The Trickster",
     id: 114,
     name: "thetrickster",
@@ -817,7 +788,6 @@ export const HERO_LIST: Hero[] = [
   //   primaryAttribute: 1,
   // },
   {
-    complexity: 2,
     fullName: "Thorne",
     id: 119,
     name: "thorne",
@@ -859,14 +829,12 @@ export const HERO_LIST: Hero[] = [
   //   primaryAttribute: 1,
   // },
   {
-    complexity: 1,
     fullName: "Celestia",
     id: 135,
     name: "celestia",
     primaryAttribute: 0,
   },
   {
-    complexity: 2,
     fullName: "Rory",
     id: 136,
     name: "rory",
@@ -886,8 +854,6 @@ export enum HeroAttackCapability {
   RANGED = 2,
 }
 
-export type HeroRoleLevel = 0 | 1 | 2 | 3;
-
 export type HeroAbility = {
   id: number;
   name: string;
@@ -898,15 +864,12 @@ export type HeroAbility = {
 };
 
 export const HeroRoleNames = [
-  "Carry",
-  "Support",
-  "Nuker",
-  "Disabler",
-  "Jungler",
-  "Durable",
-  "Escape",
-  "Pusher",
-  "Initiator",
+  "Tank", // 0
+  "Bruiser", // 1
+  "Support", // 2
+  "Healer", // 3
+  "Melee Assassin", // 4
+  "Ranged Assassin", // 5
 ];
 
 export type HeroInfo = {
@@ -917,7 +880,7 @@ export type HeroInfo = {
   attack_range: number;
   attack_rate: number;
   bio_loc: string;
-  complexity: HeroComplexity;
+  rarity: HeroRarity;
   damage_max: number;
   damage_min: number;
   health_regen: number;
@@ -935,12 +898,8 @@ export type HeroInfo = {
   npe_desc_loc: string;
   order_id: number;
   primary_attr: HeroAttribute;
-  projectile_speed: number;
-  sight_range_day: number;
-  sight_range_night: number;
   str_base: number;
   str_gain: number;
-  turn_rate: number;
-  role_levels: HeroRoleLevel[];
+  role_level: number;
   abilities: HeroAbility[];
 };
