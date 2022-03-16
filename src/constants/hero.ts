@@ -293,7 +293,7 @@ export const HERO_LIST: Hero[] = [
   {
     fullName: "Melinoë",
     id: 43,
-    name: "melinoë",
+    name: "melinoe",
     primaryAttribute: 2,
   },
   // {
