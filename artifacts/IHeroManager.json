@@ -85,65 +85,6 @@
       ],
       "stateMutability": "view",
       "type": "function"
-    },
-    {
-      "inputs": [
-        {
-          "internalType": "uint256",
-          "name": "heroId",
-          "type": "uint256"
-        }
-      ],
-      "name": "heroes",
-      "outputs": [
-        {
-          "internalType": "uint8",
-          "name": "level",
-          "type": "uint8"
-        },
-        {
-          "internalType": "uint8",
-          "name": "primaryAttribute",
-          "type": "uint8"
-        },
-        {
-          "internalType": "uint8",
-          "name": "strength",
-          "type": "uint8"
-        },
-        {
-          "internalType": "uint8",
-          "name": "strengthGain",
-          "type": "uint8"
-        },
-        {
-          "internalType": "uint8",
-          "name": "agility",
-          "type": "uint8"
-        },
-        {
-          "internalType": "uint8",
-          "name": "agilityGain",
-          "type": "uint8"
-        },
-        {
-          "internalType": "uint8",
-          "name": "intelligence",
-          "type": "uint8"
-        },
-        {
-          "internalType": "uint8",
-          "name": "intelligenceGain",
-          "type": "uint8"
-        },
-        {
-          "internalType": "uint8",
-          "name": "experience",
-          "type": "uint8"
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
     }
   ],
   "bytecode": "0x",
