@@ -849,6 +849,11 @@ export const GROUPED_HERO_LIST_BY_ATTR = groupBy(
   (hero) => hero.primaryAttribute
 );
 
+export const GROUPED_HERO_LIST_BY_NAME = groupBy(
+  HERO_LIST,
+  (hero) => hero.name
+);
+
 export enum HeroAttackCapability {
   MELEE = 1,
   RANGED = 2,
