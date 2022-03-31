@@ -1,4 +1,4 @@
-import { groupBy, sortBy } from "lodash";
+import { groupBy, keyBy, sortBy } from "lodash";
 
 export enum HeroAttribute {
   STRENTH,
@@ -849,10 +849,7 @@ export const GROUPED_HERO_LIST_BY_ATTR = groupBy(
   (hero) => hero.primaryAttribute
 );
 
-export const GROUPED_HERO_LIST_BY_NAME = groupBy(
-  HERO_LIST,
-  (hero) => hero.name
-);
+export const KEYED_HERO_LIST_BY_NAME = keyBy(HERO_LIST, (hero) => hero.name);
 
 export enum HeroAttackCapability {
   MELEE = 1,
