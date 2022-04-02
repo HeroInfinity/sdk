@@ -11,9 +11,9 @@
           "type": "uint256[]"
         },
         {
-          "internalType": "uint256",
-          "name": "exp",
-          "type": "uint256"
+          "internalType": "bool",
+          "name": "won",
+          "type": "bool"
         }
       ],
       "name": "bulkExpUp",
