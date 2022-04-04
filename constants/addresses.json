@@ -1,7 +1,8 @@
 {
   "mainnet": {
     "token": "0x0c4ba8e27e337c5e8eac912d836aa8ed09e80e78",
-    "nodePool": "0xFAd5Ef0F347eb7bB89E798B5d026F60aFA3E2bF4"
+    "nodePool": "0xFAd5Ef0F347eb7bB89E798B5d026F60aFA3E2bF4",
+    "nft": "0x8714208cfB22c5aeeA19ec229300C770Afe15479"
   },
   "testnet": {
     "token": "0x28ee3E2826264b9c55FcdD122DFa93680916c9b8",
