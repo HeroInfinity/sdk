@@ -29,6 +29,25 @@
           "type": "uint256"
         }
       ],
+      "name": "heroEnergy",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "heroId",
+          "type": "uint256"
+        }
+      ],
       "name": "heroLevel",
       "outputs": [
         {
@@ -76,6 +95,19 @@
         }
       ],
       "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "heroId",
+          "type": "uint256"
+        }
+      ],
+      "name": "spendHeroEnergy",
+      "outputs": [],
+      "stateMutability": "nonpayable",
       "type": "function"
     }
   ],
