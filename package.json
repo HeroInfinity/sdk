@@ -1,6 +1,6 @@
 {
   "name": "@heroinfinity/sdk",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "scripts": {
     "build": "rm -rf lib && tsc"
   },
@@ -16,7 +16,7 @@
   },
   "main": "index.js",
   "directories": {
-    "lib": "lib"
+    ".": "lib"
   },
   "repository": {
     "type": "git",
