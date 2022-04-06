@@ -2,13 +2,13 @@
   "mainnet": {
     "token": "0x0c4ba8e27e337c5e8eac912d836aa8ed09e80e78",
     "nodePool": "0xFAd5Ef0F347eb7bB89E798B5d026F60aFA3E2bF4",
-    "nft": "0x8714208cfB22c5aeeA19ec229300C770Afe15479"
+    "nft": "0xc4C8A29A9FcAA99fCd4c2fA8D120978369b51c05"
   },
   "testnet": {
     "token": "0x28ee3E2826264b9c55FcdD122DFa93680916c9b8",
     "nodePool": "0xa0f90c8111465e75e5b7e0d85de0dcdc185da1ae",
     "nft": "0x76b713ff56b9CAD82b2820202537A98182b5A0EC",
-    "heroManager": "0xec380A279843f954cf35c553dA9d67e3786EE430",
-    "lobbyBattle": "0x9Ee474701Ae4086e251dB822994D3137695067f1"
+    "heroManager": "0x99193736686D9A7829570B1024C4740777C4F54d",
+    "lobbyManager": "0xafc3Aa3b5D2f4dc0E130B2411e6CFd72742BdFAa"
   }
 }
