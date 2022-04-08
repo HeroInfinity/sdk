@@ -1,6 +1,6 @@
 {
   "name": "@heroinfinity/sdk",
-  "version": "1.5.13",
+  "version": "1.5.14",
   "scripts": {
     "build": "rm -rf lib && tsc"
   },
