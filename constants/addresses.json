@@ -1,8 +1,11 @@
 {
   "mainnet": {
-    "token": "0x0c4ba8e27e337c5e8eac912d836aa8ed09e80e78",
+    "token": "0x0C4BA8e27e337C5e8eaC912D836aA8ED09e80e78",
     "nodePool": "0xFAd5Ef0F347eb7bB89E798B5d026F60aFA3E2bF4",
-    "nft": "0xc4C8A29A9FcAA99fCd4c2fA8D120978369b51c05"
+    "nft": "0xc4C8A29A9FcAA99fCd4c2fA8D120978369b51c05",
+    "heroManager": "0xc04fe537b99ADFDAc0647834E022b5a8B3dec9bF",
+    "lobbyManager": "0xB42781B583897514A5685B1A8ed7EfA083DB8859",
+    "dataProcessor": "0x0c3fE7704bCD275AEE62374049fF9C708045780c"
   },
   "testnet": {
     "token": "0x28ee3E2826264b9c55FcdD122DFa93680916c9b8",
