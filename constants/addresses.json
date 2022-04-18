@@ -9,7 +9,8 @@
   },
   "testnet": {
     "token": "0x28ee3E2826264b9c55FcdD122DFa93680916c9b8",
-    "nodePool": "0xa0f90c8111465e75e5b7e0d85de0dcdc185da1ae",
+    "nodePool": "0xA0F90c8111465e75e5b7e0d85De0DCDc185DA1aE",
+    "nodePoolV2": "0x06f940BABC11D334eB25a084ca0a635aD0AD5a8D",
     "nft": "0x76b713ff56b9CAD82b2820202537A98182b5A0EC",
     "heroManager": "0xd7594E02B4C2f4a7b04371a3758342019Da98F03",
     "lobbyManager": "0x24c511026E2295164a15b0E2c755483FFaD13e21",
