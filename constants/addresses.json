@@ -2,7 +2,7 @@
   "mainnet": {
     "token": "0x0C4BA8e27e337C5e8eaC912D836aA8ED09e80e78",
     "nodePool": "0xFAd5Ef0F347eb7bB89E798B5d026F60aFA3E2bF4",
-    "nodePoolV2": "",
+    "nodePoolV2": "0xCFaFD32E51DC4A944C428Ac83e61e717Bd8FECE8",
     "nft": "0xc4C8A29A9FcAA99fCd4c2fA8D120978369b51c05",
     "heroManager": "0xc04fe537b99ADFDAc0647834E022b5a8B3dec9bF",
     "lobbyManager": "0xB42781B583897514A5685B1A8ed7EfA083DB8859",
