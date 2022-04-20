@@ -6,7 +6,8 @@
     "nft": "0xc4C8A29A9FcAA99fCd4c2fA8D120978369b51c05",
     "heroManager": "0xc04fe537b99ADFDAc0647834E022b5a8B3dec9bF",
     "lobbyManager": "0xB42781B583897514A5685B1A8ed7EfA083DB8859",
-    "dataProcessor": "0x0c3fE7704bCD275AEE62374049fF9C708045780c"
+    "dataProcessor": "0x0c3fE7704bCD275AEE62374049fF9C708045780c",
+    "multicall": ""
   },
   "testnet": {
     "token": "0x28ee3E2826264b9c55FcdD122DFa93680916c9b8",
@@ -15,6 +16,7 @@
     "nft": "0x76b713ff56b9CAD82b2820202537A98182b5A0EC",
     "heroManager": "0xd7594E02B4C2f4a7b04371a3758342019Da98F03",
     "lobbyManager": "0x24c511026E2295164a15b0E2c755483FFaD13e21",
-    "dataProcessor": "0x6A1124C0fBc6052631A1fdf7397536701885d6AB"
+    "dataProcessor": "0x6A1124C0fBc6052631A1fdf7397536701885d6AB",
+    "multicall": "0x4AD8bb5b2480f80c55158Da7f9064c45ced66894"
   }
 }
