@@ -7,7 +7,8 @@
     "heroManager": "0xc04fe537b99ADFDAc0647834E022b5a8B3dec9bF",
     "lobbyManager": "0xB42781B583897514A5685B1A8ed7EfA083DB8859",
     "dataProcessor": "0x0c3fE7704bCD275AEE62374049fF9C708045780c",
-    "multicall": ""
+    "multicall": "",
+    "wallet": ""
   },
   "testnet": {
     "token": "0x28ee3E2826264b9c55FcdD122DFa93680916c9b8",
