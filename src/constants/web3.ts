@@ -3,4 +3,4 @@ export const SIGN_MESSAGE =
 export const MINIMUM_DEPOSIT = 20000;
 export const MINIMUM_WITHDRAW = 10000;
 export const WITHDRAW_FEE = 2000;
-export const LOBBY_REWARD_RATE = 80;
+export const LOBBY_REWARD_RATE = 90;
