@@ -905,3 +905,5 @@ export type HeroInfo = {
   role_level: number;
   abilities: HeroAbility[];
 };
+
+export const HERO_MAX_ENERGY = 5;
