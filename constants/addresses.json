@@ -4,8 +4,8 @@
     "nodePool": "0xFAd5Ef0F347eb7bB89E798B5d026F60aFA3E2bF4",
     "nodePoolV2": "0xCFaFD32E51DC4A944C428Ac83e61e717Bd8FECE8",
     "nft": "0xc4C8A29A9FcAA99fCd4c2fA8D120978369b51c05",
-    "multicall": "",
-    "wallet": ""
+    "multicall": "0x5e7e2b87674BA03D29349Fa8F759300578926AA1",
+    "wallet": "0xd94EeFe9839EB9A54F1A1D61434F81368AD957D1"
   },
   "testnet": {
     "token": "0x28ee3E2826264b9c55FcdD122DFa93680916c9b8",
