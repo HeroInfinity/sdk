@@ -907,3 +907,6 @@ export type HeroInfo = {
 };
 
 export const HERO_MAX_ENERGY = 5;
+
+export const EXP_DIFF = 4;
+export const BONUS_EXP = 30;

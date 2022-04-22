@@ -1,4 +1,4 @@
-import { HeroAttribute, HeroRarity } from "../constants/hero";
+import { BONUS_EXP, HeroAttribute, HeroRarity } from "../constants/hero";
 
 export const getHeroAttributeName = (attribute: HeroAttribute) => {
   if (attribute === HeroAttribute.STRENTH) {
@@ -24,4 +24,8 @@ export const getHeroRarityName = (rarity: HeroRarity) => {
     return "Legendary";
   }
   return "Immortal";
+};
+
+export const getLevelExp = (level: number) => {
+  return BONUS_EXP - (level - 1);
 };
