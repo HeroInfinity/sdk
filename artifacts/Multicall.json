@@ -27,7 +27,7 @@
         { "name": "returnData", "type": "bytes[]" }
       ],
       "payable": false,
-      "stateMutability": "nonpayable",
+      "stateMutability": "view",
       "type": "function"
     },
     {
